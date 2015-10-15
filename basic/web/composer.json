@@ -12,7 +12,7 @@
         "irc": "irc://irc.freenode.net/yii",
         "source": "https://github.com/yiisoft/yii2"
     "fxp/composer-asset-plugin": "*",
-    "ext-gd": "
+    "ext-gd": "*"
     },
     "minimum-stability": "stable",
     "require": {
