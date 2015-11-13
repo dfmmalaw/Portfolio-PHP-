@@ -10,14 +10,15 @@ body {
     padding: 0 0 60px;
 }
 
+.site-index {
+ color: #c00; /* text color */
+ -webkit-text-stroke: 1px #ffffff; /* stroke color and weight */
+}
+
 body {
     background: url(http://www.wallpapersdb.org/wallpapers/beach/surfing_board_at_beach_1920x1080.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-body img {
-   opacity: 0.6;
 }
 
 .wrap > .container {
