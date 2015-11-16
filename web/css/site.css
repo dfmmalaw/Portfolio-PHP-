@@ -15,7 +15,8 @@ body {
 }
 
 body {
-    background: url(http://www.wallpapersdb.org/wallpapers/beach/surfing_board_at_beach_1920x1080.jpg);
+    /*background: url(http://www.wallpapersdb.org/wallpapers/beach/surfing_board_at_beach_1920x1080.jpg);*/
+    background-color: #00bfff;
     background-size: cover;
     background-repeat: no-repeat;
 }

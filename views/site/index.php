@@ -11,7 +11,7 @@ $this->title = 'My Yii Application';
 
         <p class="lead">Follow me on my journey of learning to code...</p>
 
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">My Story</a></p>
+        <p><a class="btn btn-lg btn-success" href="https://portfolio-php--dfmmalaw.c9.io/basic/views/site/story.php">My Story</a></p>
     </div>
 
     <div class="body-content">
@@ -22,7 +22,7 @@ $this->title = 'My Yii Application';
 
                 <p>Add coding tips to help others!</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Click Me &raquo;</a></p>
+                <p><a class="btn btn-default" href="https://portfolio-php--dfmmalaw.c9.io/basic/web/index.php?r=tip/index">Click Me &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Portfolio</h2>
@@ -35,6 +35,13 @@ $this->title = 'My Yii Application';
                 <h2>Events</h2>
 
                 <p>What going on around town?</p>
+
+                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Click Me &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <h2>Resources</h2>
+
+                <p>Some awesome coding tutorials!</p>
 
                 <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Click Me &raquo;</a></p>
             </div>
