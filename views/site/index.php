@@ -11,7 +11,7 @@ $this->title = 'My Yii Application';
 
         <p class="lead">Follow me on my journey of learning to code...</p>
 
-        <p><a class="btn btn-lg btn-success" href="https://portfolio-php--dfmmalaw.c9.io/basic/views/site/story.php">My Story</a></p>
+        <p><a class="btn btn-lg btn-success" href="https://portfolio-php--dfmmalaw.c9.io/basic/web/index.php?r=site/story">My Story</a></p>
     </div>
 
     <div class="body-content">
