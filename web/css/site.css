@@ -11,7 +11,13 @@ body {
 }
 
 .site-index {
-    color: #ffffff; /* text color */
+    /* text color */
+    color: #ffffff; 
+    /*this centers the text within the div*/
+    text-align: center;
+    /*this centers the text on the page*/
+    margin-right: auto; 
+    margin-left: auto; 
 }
 
 body {
@@ -20,15 +26,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-/*.site-index {*/
-    /*this centers the text within the div*/
-/*    text-align: center;*/
-    /*this centers the text on the page*/
-/*    margin-right: auto; */
-/*    margin-left: auto; */
-/*    width: 800px;*/
-/*}*/
 
 .btn.btn-default {
     color: #fff;
