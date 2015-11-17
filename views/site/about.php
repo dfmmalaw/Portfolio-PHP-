@@ -17,14 +17,18 @@ $this->params['breadcrumbs'][] = $this->title;
         I love all things martial arts and will train and compete in Brazilian 
         Jiu Jitsu until the day I die! I also love to surf and have water in my 
         blood. I am currently living in Georgia and the closest beach is hours 
-        way which I hate.
+        away which I hate.
     </p>
     <p>
         I am originally from South Africa but have lived in the 
         US since I was a kid after a six year stint in Canada. I have also lived
-        for few months in both Ecuador and Costa Rica (both of which have killer
+        in both Ecuador and Costa Rica (both of which have killer
         waves) and am blessed to have traveled to many other countries in this amazing
-        world. 
+        world.  
+    </p>
+    <p>
+        I hope you enjoy my site and please let me know if you would like me to 
+        add any content. Thanks for visiting!
     </p>
 
 </div>

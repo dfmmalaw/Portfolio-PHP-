@@ -43,7 +43,7 @@ $this->title = 'My Yii Application';
 
                 <p>Some awesome coding tutorials!</p>
 
-                <p><a class="btn btn-default" href="https://www.codermanual.com">Click Me &raquo;</a></p>
+                <p><a class="btn btn-default" href="http://www.labnol.org/internet/learn-coding-online/28537/">Click Me &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>The Law</h2>
