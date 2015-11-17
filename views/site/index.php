@@ -32,11 +32,11 @@ $this->title = 'My Yii Application';
                 <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Click Me &raquo;</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>Events</h2>
+                <h2>My Code</h2>
 
-                <p>What going on around town?</p>
+                <p>Check out my GitHub Repo!</p>
 
-                <p><a class="btn btn-default" href="http://www.meetup.com">Click Me &raquo;</a></p>
+                <p><a class="btn btn-default" href="https://github.com/dfmmalaw">Click Me &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Resources</h2>
@@ -45,6 +45,14 @@ $this->title = 'My Yii Application';
 
                 <p><a class="btn btn-default" href="https://www.codermanual.com">Click Me &raquo;</a></p>
             </div>
+            <div class="col-lg-4">
+                <h2>Events</h2>
+                
+                <p>What going on around town?</p>
+
+                <p><a class="btn btn-default" href="http://www.meetup.com">Click Me &raquo;</a></p>
+            </div>
+            
         </div>
 
     </div>
