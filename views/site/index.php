@@ -25,16 +25,16 @@ $this->title = 'My Yii Application';
                 <p><a class="btn btn-default" href="https://portfolio-php--dfmmalaw.c9.io/basic/web/index.php?r=tip/index">Click Me &raquo;</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>Portfolio</h2>
+                <h2>My Code</h2>
 
                 <p>Check out what I have done!</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Click Me &raquo;</a></p>
+                <p><a class="btn btn-default" href="https://github.com/dfmmalaw">Click Me &raquo;</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>My Code</h2>
+                <h2>I'm Hiring</h2>
 
-                <p>Check out my GitHub Repo!</p>
+                <p>Need a job? View my listings!</p>
 
                 <p><a class="btn btn-default" href="https://github.com/dfmmalaw">Click Me &raquo;</a></p>
             </div>
@@ -46,9 +46,16 @@ $this->title = 'My Yii Application';
                 <p><a class="btn btn-default" href="https://www.codermanual.com">Click Me &raquo;</a></p>
             </div>
             <div class="col-lg-4">
+                <h2>The Law</h2>
+
+                <p>Happening in the legal side of tech?</p>
+
+                <p><a class="btn btn-default" href="https://www.codermanual.com">Click Me &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
                 <h2>Events</h2>
                 
-                <p>What going on around town?</p>
+                <p>What's going on in the coding world?</p>
 
                 <p><a class="btn btn-default" href="http://www.meetup.com">Click Me &raquo;</a></p>
             </div>
