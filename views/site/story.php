@@ -11,32 +11,31 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        My story may not be much different from others that have found themselves 
-        falling into the world of "coding". At 32 I still wasn't sure what I wanted 
-        do with the rest of my life. Being a husband, father and provider made  
-        this feeling of uncertainty unbearable and I knew there had to be something 
-        that I would be happy doing on a daily basis and that would allow me to 
-        be financially secure. Enter programming! 
+        My story may not be much different from others that fell into the world 
+        of "coding". At 32 I still wasn't sure what I wanted do with the rest of
+        my life, and being a husband, father and provider made this feeling of uncertainty 
+        unbearable. I knew there had to be something that I would be happy doing 
+        on a daily basis and would allow me to be financially secure. Enter 
+        programming! But first some background...
     </p>
         
-     <p>I finished law school a few years ago and did my clinic at the prosecutor's
-        office in Atlanta, GA. I absolutely loved being in the court room and because 
-        of something called the Third Year Practice Act I was able to try my own cases
-        during my time there. It was awesome to say the least. My plan was to take 
-        the bar and become a prosecutor. 
+     <p>During laws school I did my clinic at the prosecutor's office in Atlanta, 
+        GA. I absolutely loved being in the court room and because of something 
+        called the Third Year Practice Act I was able to try my own cases. It was 
+        awesome to say the least. In fact, my plan was to take the bar and become 
+        a prosecutor after I graduated. 
     </p>
         
-    <p> Fast forward I graduated from law school and tool a job teaching and being
+    <p> Fast forward, I graduated from law school and took a job teaching and also as
         the program chair of a criminal justice program at a local college. I was
-        there for a little over a year until I was offered a position as an Academic
-        Dean at another post-secondary proprtietary school. It was then that I 
-        realized that management in education was not what I wanted to do the rest 
-        of my life. 
+        there for a little over a year until I was offered a position as a Director 
+        of Education at another school. Soon after I realized that management in 
+        education was not what I wanted to do the rest of my life. 
     </p>
         
     <p> I ended up leaving Georgia with my wife and three month old daughter and
         heading to Florida to take a position with a family member's start-up 
-        software company. I immediately fell in love with the tech industry. Everything
+        software company. I immediately fell in love with the tech industry! Everything
         from the technical aspects of the software development life cycle to the 
         legal aspect of intellectual property just seemed to make sense to me. I 
         had a chance to be a part of the re-architecture of the software starting 
