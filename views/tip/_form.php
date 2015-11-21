@@ -12,14 +12,13 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
+    <!--<?= $form->field($model, 'date')->textInput() ?>-->
+    
     <?= $form->field($model, 'date')->widget(\yii\jui\DatePicker::className(), [
-    // if you are using bootstrap, the following line will set the correct style of the input field
     'options' => ['class' => 'form-control'],
-    // ... you can configure more DatePicker properties here
-]) ?>
-  
+    ]) ?>
 
-    <?= $form->field($model, 'subject')->textarea(['rows' => 6]) ?>
+    <?= $form->field($model, 'author')->textarea(['rows' => 6]) ?>
 
     <?= $form->field($model, 'post')->textarea(['rows' => 6]) ?>
 

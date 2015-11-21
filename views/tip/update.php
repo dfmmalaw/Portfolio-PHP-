@@ -5,9 +5,9 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Tip */
 
-$this->title = 'Update Tip: ' . ' ' . $model->author;
+$this->title = 'Update Tip: ' . ' ' . $model->id;
 $this->params['breadcrumbs'][] = ['label' => 'Tips', 'url' => ['index']];
-$this->params['breadcrumbs'][] = ['label' => $model->author, 'url' => ['view', 'id' => $model->author]];
+$this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>
 <div class="tip-update">

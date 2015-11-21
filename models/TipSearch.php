@@ -18,7 +18,8 @@ class TipSearch extends Tip
     public function rules()
     {
         return [
-            [['author', 'date', 'subject', 'post'], 'safe'],
+            [['id'], 'integer'],
+            [['date', 'author', 'post'], 'safe'],
         ];
     }
 
@@ -55,11 +56,11 @@ class TipSearch extends Tip
         }
 
         $query->andFilterWhere([
+            'id' => $this->id,
             'date' => $this->date,
         ]);
 
         $query->andFilterWhere(['like', 'author', $this->author])
-            ->andFilterWhere(['like', 'subject', $this->subject])
             ->andFilterWhere(['like', 'post', $this->post]);
 
         return $dataProvider;

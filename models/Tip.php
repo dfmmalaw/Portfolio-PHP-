@@ -7,8 +7,9 @@ use Yii;
 /**
  * This is the model class for table "tip".
  *
+ * @property integer $id
  * @property string $date
- * @property string $subject
+ * @property string $author
  * @property string $post
  */
 class Tip extends \yii\db\ActiveRecord
@@ -27,9 +28,9 @@ class Tip extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['date', 'subject', 'post'], 'required'],
+            [['date', 'author', 'post'], 'required'],
             [['date'], 'safe'],
-            [['subject', 'post'], 'string']
+            [['author', 'post'], 'string']
         ];
     }
 
@@ -39,8 +40,9 @@ class Tip extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
+            'id' => 'ID',
             'date' => 'Date',
-            'subject' => 'Subject',
+            'author' => 'Author',
             'post' => 'Post',
         ];
     }
