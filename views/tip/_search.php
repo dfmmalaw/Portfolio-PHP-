@@ -21,6 +21,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'author') ?>
 
+    <?= $form->field($model, 'subject') ?>
+
     <?= $form->field($model, 'post') ?>
 
     <div class="form-group">

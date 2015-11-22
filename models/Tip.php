@@ -10,6 +10,7 @@ use Yii;
  * @property integer $id
  * @property string $date
  * @property string $author
+ * @property string $subject
  * @property string $post
  */
 class Tip extends \yii\db\ActiveRecord
@@ -28,9 +29,9 @@ class Tip extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['date', 'author', 'post'], 'required'],
             [['date'], 'safe'],
-            [['author', 'post'], 'string']
+            [['author', 'subject', 'post'], 'required'],
+            [['author', 'subject', 'post'], 'string']
         ];
     }
 
@@ -43,6 +44,7 @@ class Tip extends \yii\db\ActiveRecord
             'id' => 'ID',
             'date' => 'Date',
             'author' => 'Author',
+            'subject' => 'Subject',
             'post' => 'Post',
         ];
     }
