@@ -6,12 +6,20 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    // This part replaces the "user" setting commented below but lool at docs to add options
     'modules' => [
         'user' => [
             'class' => 'dektrium\user\Module',
         ],
     ],
     'components' => [
+        // Uncomment out the below code and the Themefactory theme will start to render
+        // 'view' => [
+        //     'theme' => [
+        //         'pathMap' => ['@app/views' => 'themes/dorian'],
+        //         'baseUrl'   => 'themes/dorian'
+        //     ],
+        // ], 
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'gfWIx3XdsOCYeUve6VVm1KF4VayT0z7t',
@@ -26,13 +34,20 @@ $config = [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        'urlManager' => ['enablePrettyUrl' => true ],
+        // The below code replaced the commented code below it after installing mailgun extension
         'mailer' => [
-            'class' => 'yii\swiftmailer\Mailer',
-            // send all mails to a file by default. You have to set
-            // 'useFileTransport' to false and configure a transport
-            // for the mailer to send real emails.
-            'useFileTransport' => true,
+            'class' => 'boundstate\mailgun\Mailer',
+            'key' => 'key-84afa5b6a102cf2f3c8439a6ed91797f',
+            'domain' => 'app814ce068eac248cab5b68c4589c3b1b4.mailgun.org',
         ],
+        // 'mailer' => [
+        //     'class' => 'yii\swiftmailer\Mailer',
+        //     // send all mails to a file by default. You have to set
+        //     // 'useFileTransport' to false and configure a transport
+        //     // for the mailer to send real emails.
+        //     'useFileTransport' => false,
+        // ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
