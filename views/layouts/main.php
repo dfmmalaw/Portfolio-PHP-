@@ -40,8 +40,11 @@ AppAsset::register($this);
     ['label' => 'Contact', 'url' => ['/site/contact']]
   ];
   if (Yii::$app->user->isGuest) {
-    array_push($navItems,['label' => 'Sign In', 'url' => ['/user/login']],['label' => 'Sign Up', 'url' => ['/user/register']]);
-  } else {
+    array_push($navItems,
+        ['label' => 'Sign In', 'url' => ['/user/login']],
+        ['label' => 'Sign Up', 'url' => ['/user/register']]);
+  } 
+    else {
     array_push($navItems,['label' => 'Logout (' . Yii::$app->user->identity->username . ')',
         'url' => ['/site/logout'],
         'linkOptions' => ['data-method' => 'post']]
@@ -53,18 +56,18 @@ echo Nav::widget([
 ]);
 //  The below code was replaced with the LOC starting at 37 and it adds the sign-up and sign-in links to the heading bar
 // echo Nav::widget([
-    //     'options' => ['class' => 'navbar-nav navbar-right'],
-    //     'items' => [
-    //         ['label' => 'Home', 'url' => ['/site/index']],
-    //         ['label' => 'About', 'url' => ['/site/about']],
-    //         ['label' => 'Contact', 'url' => ['/site/contact']],
-    //         Yii::$app->user->isGuest ?
-    //             ['label' => 'Login', 'url' => ['/site/login']] :
-    //             ['label' => 'Logout (' . Yii::$app->user->identity->username . ')',
-    //                 'url' => ['/site/logout'],
-    //                 'linkOptions' => ['data-method' => 'post']],
-    //     ],
-    // ]);
+//         'options' => ['class' => 'navbar-nav navbar-right'],
+//         'items' => [
+//             ['label' => 'Home', 'url' => ['/site/index']],
+//             ['label' => 'About', 'url' => ['/site/about']],
+//             ['label' => 'Contact', 'url' => ['/site/contact']],
+//             Yii::$app->user->isGuest ?
+//                 ['label' => 'Login', 'url' => ['/site/login']] :
+//                 ['label' => 'Logout (' . Yii::$app->user->identity->username . ')',
+//                     'url' => ['/site/logout'],
+//                     'linkOptions' => ['data-method' => 'post']],
+//         ],
+//     ]);
     NavBar::end();
     ?>
 
