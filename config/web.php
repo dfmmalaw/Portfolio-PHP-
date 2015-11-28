@@ -34,7 +34,7 @@ $config = [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        'urlManager' => ['enablePrettyUrl' => true ],
+        // 'urlManager' => ['enablePrettyUrl' => true ],
         // The below code replaced the commented code below it after installing mailgun extension
         'mailer' => [
             'class' => 'boundstate\mailgun\Mailer',
