@@ -34,7 +34,8 @@ $config = [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        // 'urlManager' => ['enablePrettyUrl' => true ],
+        // The below code makes the sign-in and sign-up pages work but it breaks the tip and story pages
+        'urlManager' => ['enablePrettyUrl' => true ],
         // The below code replaced the commented code below it after installing mailgun extension
         'mailer' => [
             'class' => 'boundstate\mailgun\Mailer',
