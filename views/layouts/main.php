@@ -41,7 +41,7 @@ AppAsset::register($this);
   ];
   if (Yii::$app->user->isGuest) {
     array_push($navItems,
-        ['label' => 'Sign In', 'url' => ['/user/login']],
+        ['label' => 'Login', 'url' => ['/user/login']],
         ['label' => 'Sign Up', 'url' => ['/user/register']]);
   } 
     else {
