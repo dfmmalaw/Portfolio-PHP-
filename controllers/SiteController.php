@@ -96,4 +96,10 @@ class SiteController extends Controller
     {
         return $this->render('story');
     }
+    
+    public function actionJobs()
+    {
+        return $this->render('jobs');
+    }
 }
+

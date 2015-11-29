@@ -19,7 +19,7 @@ $this->params['breadcrumbs'][] = $this->title;
         programming! But first some background...
     </p>
         
-     <p>During laws school I did my clinic at the prosecutor's office in Atlanta, 
+     <p>During law school I did my clinic at the prosecutor's office in Atlanta, 
         GA. I absolutely loved being in the court room and because of something 
         called the Third Year Practice Act I was able to try my own cases. It was 
         awesome to say the least. In fact, my plan was to take the bar and become 

@@ -36,7 +36,7 @@ $this->title = 'My Yii Application';
 
                 <p>Need a job? View my listings!</p>
 
-                <p><a class="btn btn-default" href="https://github.com/dfmmalaw">Click Me &raquo;</a></p>
+                <p><a class="btn btn-default" href="https://portfolio-php--dfmmalaw.c9.io/basic/web/index.php/site/jobs">Click Me &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Resources</h2>
