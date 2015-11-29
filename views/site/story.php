@@ -54,13 +54,13 @@ $this->params['breadcrumbs'][] = $this->title;
     </p>
         
     <p> That is when I dedided to take one of the biggest leaps in faith that I have 
-        ever taken and quit my job to start a dev bootcamp. I ended up going to LAMP
+        ever taken and started attending a dev bootcamp. I ended up going to LAMP
         camp, and from the name you can guess that it is a full-stack PHP program.
-        The only difference is that it is not a dev bootcamp. It is subsidized by 
+        The difference is that it is not a dev bootcamp per se. It is subsidized by 
         a software company called The Cresca Group and us Junior Developers get to 
-        work on their client's "enterprise level" web applications. They started 
+        work on their client's "enterprise level" web applications. On day one they started 
         off by introducing us to their proprietary MVC framework that was built 
-        in-house and gave us a lesson in Object Oriented Programming. I can not
+        in-house and gave us a crash course in Object Oriented Programming. I cannot
         begin to explain how lost I felt at this point. It was law school all over
         again! 
     </p>
@@ -80,7 +80,7 @@ $this->params['breadcrumbs'][] = $this->title;
         not let anything slow me down.
     </p>
         
-    <p>    I also want to gain further knowledge of intellectual property law and as
+    <p> I also want to gain further knowledge of intellectual property law and as
         I see it being a big part of my future. I think some forget how important 
         the legal aspect of appliction development actually is. </br>
     </p>
