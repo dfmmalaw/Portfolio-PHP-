@@ -50,7 +50,7 @@ $this->title = 'My Yii Application';
 
                 <p>Happening in the legal side of tech?</p>
 
-                <p><a class="btn btn-default" href="https://www.codermanual.com">Click Me &raquo;</a></p>
+                <p><a class="btn btn-default" href="http://www.lawtechnologytoday.org">Click Me &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Events</h2>
