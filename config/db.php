@@ -16,6 +16,7 @@ return [
     'charset' => 'utf8',
 ];
 
-
+// mysqldump --single-transaction -u dfmmalaw -p -h localhost portfolio 
+// mysql -h us-cdbr-iron-east-03.cleardb.net -u b512921529c912 -p -D heroku_75bbb7b1efe27f1
 
 ?>
