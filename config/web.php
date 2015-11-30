@@ -43,11 +43,11 @@ $config = [
             // Disable r= routes
             'enablePrettyUrl' => true,
             'rules' => array(
-                'site/<id:\d+>' => 'site/story',   
-                'site/story' => 'site/story',
-                '<controller:(site|story)>/<id:\d+>/<action:(create|update|delete)>' => '<controller>/<action>',
-                '<controller:(site|story)>/<id:\d+>' => '<controller>/story',
-                '<controller:(site|story)>s' => '<controller>/story',
+                // 'site/<id:\d+>' => 'site/story',   
+                // 'site/story' => 'site/story',
+                // '<controller:(site|story)>/<id:\d+>/<action:(create|update|delete)>' => '<controller>/<action>',
+                // '<controller:(site|story)>/<id:\d+>' => '<controller>/story',
+                // '<controller:(site|story)>s' => '<controller>/story',
             ),
         ],
         // The below code replaced the commented code below it after installing mailgun extension

@@ -22,7 +22,7 @@ $this->title = 'My Yii Application';
 
                 <p>Add coding tips to help others!</p>
 
-                <p><a class="btn btn-default" href="http://www.deanfriedland.com/index.php/tip/index">Click Me &raquo;</a></p>
+                <p><a class="btn btn-default" href="https://portfolio-php--dfmmalaw.c9.io/basic/web/index.php/tip/index">Click Me &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>My Code</h2>
