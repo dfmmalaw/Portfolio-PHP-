@@ -37,8 +37,8 @@ body {
     padding: 70px 15px 20px;
 }
 
-.navbar-inverse.navbar-fixed-top.navbar {
-    background-color: #000000;
+.navbar-fixed-top.navbar {
+    background-color: #f5f5f5;
 }
 
 .footer {
