@@ -30,8 +30,8 @@ AppAsset::register($this);
         'brandLabel' => 'Dean Friedland',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            // 'class' => 'navbar-inverse navbar-fixed-top',
-            'class' => 'navbar-fixed-top',
+            'class' => 'navbar-inverse navbar-fixed-top',
+            // 'class' => 'navbar-fixed-top',
         ],
     ]);
     
@@ -80,7 +80,7 @@ echo Nav::widget([
     </div>
 </div>
 
-<footer class="footer">
+<footer class="inverse footer">
     <div class="container">
         <p class="pull-left">&copy; Dean Friedland <?= date('Y') ?></p>
 
