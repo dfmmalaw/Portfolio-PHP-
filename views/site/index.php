@@ -2,8 +2,11 @@
 
 /* @var $this yii\web\View */
 
+use yii\materialicons\MD;
+
 $this->title = 'My Yii Application';
 ?>
+
 <div class="site-index">
 
     <div class="jumbotron">
@@ -18,7 +21,12 @@ $this->title = 'My Yii Application';
 
         <div class="row">
             <div class="col-lg-4">
-                <h2>Coding Help</h2>
+                <h2>Leave a Tip</h2>
+                
+                <?php echo MD::icon(MD::_FACE)
+                    ->size(MD::SIZE_3X) 
+                    // ->spin();
+                ?>
 
                 <p>Add coding tips to help others!</p>
 
@@ -26,6 +34,11 @@ $this->title = 'My Yii Application';
             </div>
             <div class="col-lg-4">
                 <h2>My Code</h2>
+                
+                <?php echo MD::icon(MD::_CODE)
+                    ->size(MD::SIZE_3X) 
+                    // ->spin();
+                ?>
 
                 <p>Check out what I have done!</p>
 
@@ -33,6 +46,11 @@ $this->title = 'My Yii Application';
             </div>
             <div class="col-lg-4">
                 <h2>I'm Hiring</h2>
+                
+                <?php echo MD::icon(MD::_WORK)
+                    ->size(MD::SIZE_3X) 
+                    // ->spin();
+                ?>
 
                 <p>Need a job? View my listings!</p>
 
@@ -40,6 +58,11 @@ $this->title = 'My Yii Application';
             </div>
             <div class="col-lg-4">
                 <h2>Resources</h2>
+                
+                <?php echo MD::icon(MD::_SCHOOL)
+                    ->size(MD::SIZE_3X) 
+                    // ->spin();
+                ?>
 
                 <p>Some awesome coding tutorials!</p>
 
@@ -47,14 +70,22 @@ $this->title = 'My Yii Application';
             </div>
             <div class="col-lg-4">
                 <h2>The Law</h2>
+                
+              <i class="material-icons md-gavel">gavel</i>
 
                 <p>Happening in the legal side of tech?</p>
 
                 <p><a class="btn btn-default" href="http://www.lawtechnologytoday.org">Click Me &raquo;</a></p>
             </div>
             <div class="col-lg-4">
+                
                 <h2>Events</h2>
                 
+                <?php echo MD::icon(MD::_EVENT)
+                    ->size(MD::SIZE_3X) 
+                    // ->spin();
+                ?>
+              
                 <p>What's going on in the coding world?</p>
 
                 <p><a class="btn btn-default" href="http://www.meetup.com">Click Me &raquo;</a></p>

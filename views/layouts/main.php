@@ -31,6 +31,7 @@ AppAsset::register($this);
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
+            // Uncomment the below code if you want to take the inverse coloring off the header
             // 'class' => 'navbar-fixed-top',
         ],
     ]);
@@ -80,7 +81,7 @@ echo Nav::widget([
     </div>
 </div>
 
-<footer class="inverse footer">
+<footer class="footer">
     <div class="container">
         <p class="pull-left">&copy; Dean Friedland <?= date('Y') ?></p>
 

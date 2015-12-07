@@ -22,7 +22,9 @@
         "ext-gd": "*",
         "yiisoft/yii2-jui": "^2.0",
         "dektrium/yii2-user": "0.9.*@dev",
-        "boundstate/yii2-mailgun": "*"
+        "boundstate/yii2-mailgun": "*",
+        "kartik-v/yii2-icons": "@dev",
+        "mervick/yii2-material-design-icons": "~1.0"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
