@@ -20,6 +20,14 @@ $config = [
         //         'baseUrl'   => 'themes/dorian'
         //     ],
         // ], 
+        // 'view' => [
+        //     'class' => 'yii\web\View',
+        //         'theme' => [
+        //             'class' => 'yii\base\Theme',
+        //             'pathMap' => ['@app/views' => 'themes/material'],
+        //             'baseUrl'   => 'themes/material'
+        //         ],
+        //     ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'gfWIx3XdsOCYeUve6VVm1KF4VayT0z7t',
