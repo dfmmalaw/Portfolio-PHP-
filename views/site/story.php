@@ -4,7 +4,7 @@
 
 use yii\helpers\Html;
 
-$this->title = 'What is this app???';
+$this->title = 'About the Application';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-story">

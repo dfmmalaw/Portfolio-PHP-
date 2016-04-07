@@ -37,7 +37,7 @@ AppAsset::register($this);
     ]);
     
     $navItems=[
-    ['label' => 'Home', 'url' => ['/site/index']],
+    ['label' => 'Home', 'url' => ['/']],
     ['label' => 'About', 'url' => ['/site/about']],
     ['label' => 'Contact', 'url' => ['/site/contact']]
   ];
