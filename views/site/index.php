@@ -23,7 +23,7 @@ $this->title = 'My Yii Application';
     <div class="body-content">
 
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 pagination-centered">
                 <h2>Leave a Tip</h2>
                 
                 <?php echo MD::icon(MD::_FACE)
