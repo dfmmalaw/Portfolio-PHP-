@@ -37,7 +37,7 @@ AppAsset::register($this);
     ]);
     
     $navItems=[
-    ['label' => 'Home', 'url' => Yii::$app->homeUrl]
+    ['label' => 'Home', 'url' => ['/site/about']]
     ['label' => 'About', 'url' => ['/site/about']],
     ['label' => 'Contact', 'url' => ['/site/contact']]
   ];
