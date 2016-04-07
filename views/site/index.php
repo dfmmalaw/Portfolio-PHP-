@@ -17,7 +17,7 @@ $this->title = 'My Yii Application';
 
         <p class="lead">Follow me on my journey of learning to code...</p>
 
-        <p><a class="btn btn-lg btn-success" href="http://www.tip-it.tech/index.php/site/story">My Story</a></p>
+        <p><a class="btn btn-lg btn-success" href="http://portfolio-php.herokuapp.com/index.php/site/story">My Story</a></p>
     </div>
 
     <div class="body-content">
@@ -33,7 +33,7 @@ $this->title = 'My Yii Application';
 
                 <p>Add coding tips to help others!</p>
 
-                <p><a class="btn btn-default" href="http://www.tip-it.tech/index.php/tip/index">Click Me &raquo;</a></p>
+                <p><a class="btn btn-default" href="http://portfolio-php.herokuapp.com/index.php/tip/index">Click Me &raquo;</a></p>
             </div>
             
             
