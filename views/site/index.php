@@ -13,31 +13,15 @@ $this->title = 'My Yii Application';
         
         <img src="ecto.png" alt="HTML5 Icon" style="width:148px;height:148px;">
         
-        <h1>On Road To Code!</h1>
+        <h1>Tip IT</h1>
 
-        <p class="lead">Follow me on my journey of learning to code...</p>
+        <p class="lead">What do you wish someone told you when you were learning to code???</p>
 
-        <p><a class="btn btn-lg btn-success" href="http://portfolio-php.herokuapp.com/index.php/site/story">My Story</a></p>
+        <p><a class="btn btn-lg btn-success" href="http://portfolio-php.herokuapp.com/index.php/tip/index">Leave a tip!</a></p>
     </div>
 
     <div class="body-content">
 
-        <div class="row">
-            <div class="col-lg-4 pagination-centered">
-                <h2>Leave a Tip</h2>
-                
-                <?php echo MD::icon(MD::_FACE)
-                    ->size(MD::SIZE_3X) 
-                    // ->spin();
-                ?>
-
-                <p>Add coding tips to help others!</p>
-
-                <p><a class="btn btn-default" href="http://portfolio-php.herokuapp.com/index.php/tip/index">Click Me &raquo;</a></p>
-            </div>
-            
-            
-        </div>
 
     </div>
 </div>
