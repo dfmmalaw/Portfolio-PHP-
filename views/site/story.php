@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
         learning how to code. I created this basic CRUD application so that experienced
         devs can leave tips for those who are beginning their journeys of learning how to 
         code. Please pay it forward by adding a piece of knowledge that you wish
-        someone would have given you along the way... Thank you!!!
+        someone would have given you along the way... Thank you!!!!
     </p>
 
 </div>
