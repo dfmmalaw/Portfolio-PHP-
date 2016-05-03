@@ -12,6 +12,8 @@ $this->title = 'My Yii Application';
     <div class="jumbotron">
         
         <img src="ecto.png" alt="HTML5 Icon" style="width:148px;height:148px;">
+        
+        <h1>The Tip App</h1>
 
         <p class="lead">What do you wish someone told you when you were learning to code???</p>
 
